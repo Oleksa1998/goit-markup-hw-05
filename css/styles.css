@@ -519,7 +519,6 @@ margin-left: -30px;
 }
 .portfolio-top-text {
   position: absolute;
-  top: 0;
   background-color: rgba(33, 150, 243, 0.9);
   color:var(--header-color);
   font-weight: 400;
