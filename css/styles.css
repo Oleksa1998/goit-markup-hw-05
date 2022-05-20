@@ -131,7 +131,8 @@ color:var(--contact-color);
   display: flex;
   align-items: center;  
   fill: var(--contact-color);
-  transition: color fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-link:hover {
   color:var(--accent-color);
@@ -376,7 +377,8 @@ color: var(--title-color);
   box-sizing: border-box;
   border-radius: 4px;
   fill: #AFB1B8;
-  transition: border-color, fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-link:hover {
   border-color: var(--accent-color);
@@ -460,10 +462,11 @@ margin-left: 10px;
   display: flex;
   justify-content: center;
   align-items: center;    
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }  
  .footer-soc-icon {
    fill:#FFFFFF;
-   transition: color 250ms linear cubic-bezier(0.4, 0, 0.2, 1);
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .footer-soc-link:hover,
  .footer-soc-link:focus {
