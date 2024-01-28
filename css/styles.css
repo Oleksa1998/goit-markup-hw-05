@@ -29,6 +29,17 @@ img {
 textarea {
   resize: none;
 }
+input {
+  font-family: inherit;
+}
+input::placeholder {
+  color: var(--header-color) ;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+}
 .link {
  text-decoration: none;
 }
@@ -55,6 +66,7 @@ margin: 0 auto;
 .input {
 	font-family: inherit;
 }
+
 /* --------------------------header---------------------- */
 .header {
   border-bottom: 1px solid #ECECEC;
@@ -183,8 +195,7 @@ margin-right: auto;
 }
 .hero-btn {
   font-weight: 700;
-  font-family:inherit
-  font-size: 16px;
+  font-family:inherit;
 line-height: 1.87;
 display: flex;
 align-items: center;
@@ -362,7 +373,6 @@ margin-left: 24px;
 /* --------------------------------footer-------------------- */
 .footer {
   background-color: #2E2F42;
-  align-items: baseline;
   padding: 60px 0px;
 }
 .footer-logo {
@@ -404,6 +414,7 @@ margin-left: 24px;
   }
 .footer-title {
 font-size: 16px;
+font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.03em;
 color: #FFFFFF;
@@ -452,42 +463,43 @@ fill:var(--header-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--header-color);
+  padding-bottom: 16px;
+
  }
  .footer-form-list {
 display: flex;
 margin-top:16px;
  }
- /* .footer-form-item {
- } */
  .footer-email {
- 
+  display: flex;
+  
  }
- .form-mail { 
-  background-color: #2E2F42;
-  color:var(--header-color);
+ .form-mail {
 width: 264px;
-height: 40px;
-flex-shrink: 0;
-width: 264px;
-height: 40px;
+height: 40px; 
+color: var(--header-color);
+background-color: transparent;
+border: 1px solid #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 flex-shrink: 0;
 border-radius: 4px;
-border: 1px solid var(--WHITE, #FFF);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+font-size: 12px;
+
 }
 .footer-button {
 color: var(--header-color);
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.64px;
-  width: 165px;
+letter-spacing: 0.03em;
+  min-width: 165px;
   height: 40px;
-  display: inline-flex;
-  padding: 8px 24px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  padding: 8px 24px;
   gap: 16px;
   border-radius: 4px;
+  border:none;
   background: #4D5AE5;
   margin-left: 24px;
 }
