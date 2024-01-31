@@ -467,9 +467,14 @@ placeholder="Text input"  rows="0">
 </textarea>
 </div>
 <div class="form-policy">
-  <input type="checkbox" name="agreement" id="checkbox" class="form-input">
-  <label for="policy" class="form-labelpolicy">
-    I accept the terms and conditions of the <span class="privacy-policy"><a href="" class="policy-link link">Privacy Policy</a></span>
+  <input type="checkbox" name="user-privacy" id="user-privacy" value="true" class="visually-hidden">
+  <label for="user-privacy" class="form-label-policy">
+    I accept the terms and conditions of the <span class="privacy-policy"><svg class="approve-img">
+      <use a=href"images/icons.svg#">
+      </use>
+    </svg>
+  </span>
+  <a href="" class="policy-link link">Privacy Policy</a>
   </label>
 </div>
 <button class="form-button" type="submit">Send</button>
