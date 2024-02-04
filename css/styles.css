@@ -654,12 +654,11 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background-color: #404bbf;
 border: none;
 }
-/* .modal-close-btn:focus  */
 .btn-icon {
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
-.modal-close-btn .btn-icon:hover, 
-.btn-icon:focus {
+.modal-close-btn:hover .btn-icon 
+{
   fill:var(--header-color);
 }
 .is-hidden {
@@ -712,7 +711,6 @@ border-radius: 4px;
   height: 24px;
   position: absolute;
   left: 16px;
-  top:;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
