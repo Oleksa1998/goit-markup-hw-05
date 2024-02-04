@@ -113,7 +113,7 @@
       </section>
       <!-- Our team -->
       <section class="section our-team">
-        <div class="container">
+          <div class="container">
 
           <h2 class="team title">Our team</h2>
         
@@ -243,7 +243,7 @@
                   </svg>
                 </a>
               </li>
-            </ul>
+          </ul>
           </div>
           </li>
             <li class="team-card">
@@ -285,7 +285,6 @@
           </li>
             </ul>
         </div>
-        </li> 
       </section>
       <!-- -------Portfolio------ -->
       <section class="section projects">
@@ -465,14 +464,15 @@ placeholder="Text input"  rows="1">
 </textarea>
 </div>
 <div class="form-policy">
-  <input type="checkbox" name="user-privacy" id="user-privacy" value="true" class="visually-hidden">
+  <input name="user-privacy" id="user-privacy" value="true" type="checkbox" required   class="checkbox visually-hidden">
   <label for="user-privacy" class="form-label-policy">
-    I accept the terms and conditions of the <span class="privacy-policy">
+    <span class="privacy-policy">
       <svg class="approve-icon" width="16px" height="16px">
       <use href="./images/icons.svg#icon-click">
       </use>
     </svg>
   </span>
+    I accept the terms and conditions of the 
   <a href="" class="policy-link link">Privacy Policy</a>
   </label>
 </div>
