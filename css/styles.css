@@ -772,6 +772,9 @@ outline: transparent;
 resize: none;
 border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.comment:focus {
+  border-color:#4D5AE5;
+}
 .form-policy {
 margin-bottom: 24px;
 }
@@ -793,6 +796,7 @@ margin-bottom: 24px;
   display: inline-flex;
   align-items: center;
   fill: transparent;
+  justify-content: center;
 }
 .checkbox:checked + label span {
   fill: #F4F4FD;
